@@ -1,5 +1,6 @@
 from random import randint
 
+
 numero_filas = int(input("Seleccione el número de filas de la matriz: "))
 numero_columnas = int(input("Seleccione el número de columnas de la matriz: "))
 
@@ -15,5 +16,9 @@ for i in range(numero_filas):
     for j in range(numero_columnas):
         suma = suma + matriz[i][j]
         suma = int(suma)
-print(matriz)
+
+for i in range (numero_filas):
+    print(matriz[i])
+
 print(suma)
+
